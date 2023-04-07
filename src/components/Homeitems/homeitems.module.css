@@ -1,0 +1,110 @@
+.sqare{
+    background-color: #fffefd;
+    height: 180px;
+    margin: 0px 90px 0px 90px;
+    padding: 30px 0 10px 0;
+  }
+
+.Sentence1{
+    font-family: 'Italiana', serif;    
+    font-style: normal;
+    font-weight:400;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #515151;
+    font: weight 5px;
+    
+}
+
+.Sentence2{
+    font-family: 'Italiana', serif;    
+    font-style: Regular;
+    font-size: 60px;
+    line-height: 94px;
+    line-height: 100%;
+    text-align: center;
+
+    -webkit-text-stroke: 1.5px #686868;
+    color:transparent;
+    
+}
+
+.imageShapeArea{
+    margin: 5% 10% 3% 10%;
+}
+
+@media (max-width: 992px) {
+    .imageShape {
+      /* 在小屏幕上的样式 */
+      padding: 0 auto;
+      margin: 0 10% 0 10%;
+      display: flex;
+      justify-content: center;
+      background-color: rgb(199, 82, 82);
+      width: 75%;
+      height: 460px;
+      border-top-right-radius: 160px;
+      border-top-left-radius: 160px;
+      object-fit: cover; 
+
+      clip-path: url('#my-clip-path'); /* 设置裁剪路径 */
+      overflow: hidden;
+      clip-path: path('M0,0 Q0,0 400,1 L415,415 L10,415 Z');
+    }
+    .imageShape img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .imageShape {
+      /* 在大屏幕上的样式 */
+      display: block;
+      padding: 0 auto;
+      width: 100%;
+      height: 460px;
+      align-items: center;
+      border-top-right-radius: 160px;
+      border-top-left-radius: 160px;
+
+      clip-path: url('#my-clip-path'); /* 设置裁剪路径 */
+      overflow: hidden;
+      clip-path: path('M0,0 Q0,0 5000,1 L415,415 L10,415 Z');
+    }
+    .imageShape img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .imageShape:hover{
+        width: 100%;
+        height: 460px;
+        background-color: black;
+    }
+  }
+
+.circle{
+    height: 200px;
+    margin: 40px 15% 100px 15%;
+    border: 2px solid #262626;
+
+    border-radius: 50%;
+    display: flex;
+    font-family: 'Italiana', serif;    
+    font-style: normal;
+    font-weight:400;
+    font-size: 35px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #262626;
+    font: weight 5px;
+}
+
+.Sentence3{
+    margin: 10px 17% 0 17%;
+}

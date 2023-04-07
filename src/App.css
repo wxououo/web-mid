@@ -1,8 +1,17 @@
 #root {
   /* max-width: 1920px; */
-  margin: 0 auto;
-  padding: 2rem;
+  /* margin: 0 auto;
+  padding: 2rem; */
   text-align: center;
+}
+
+.bg{
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image:url("./images/bg0.jpg");
 }
 
 .logo {

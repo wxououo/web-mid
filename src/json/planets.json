@@ -1,18 +1,45 @@
 [
     {
-        "id": 0,
+        "id": "dsad",
+        "category":"Planet",
+        "name":"planet1",
+        "price":900000,
+        "stock":1,
         "image": "/images/planet1.png"
     },
     {
-        "id": 1,
+        "id": "bdvef",
+        "category":"Planet",
+        "name":"planet2",
+        "price":729000,
+        "stock":1,
         "image": "/images/planet5.png"
     },
     {
-        "id": 2,
+        "id": "svs",
+        "category":"Planet",
+        "name":"planet3",
+        "price":5400,
+        "stock":1,
         "image": "/images/planet12.png"
     },
     {
-        "id": 3,
+        "id": "fwrr",
+        "category":"Planet",
+        "name":"planet4",
+        "price":3000,
+        "stock":1,
         "image": "/images/planet13.png"
+    },
+    {
+        "id": "zlak",
+        "category":"Pet",
+        "name":"Kirby",
+        "price":3000,
+        "stock":5,
+        "image": "/images/kirby_pink.webp"
     }
+
+
 ]
+  
