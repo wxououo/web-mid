@@ -1,8 +1,11 @@
 
 .imageStyle {
     width: 80%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     display: block;
     align-items: center;
+    border-radius: 20px;
 }
 
 
@@ -24,4 +27,38 @@
 .image {
     position: relative;
     margin-top: 1.5rem;
+}
+.nameLayout {
+    font-family: 'Jacques Francois', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200%;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 10px;
+    color: #3f3f3f;
+    /* background-color: aquamarine; */
+}
+
+@media (min-width: 992px) {
+    .nameLayout {
+        font-size:2.5vw;
+    }
+  }
+@media (min-width: 1280px) {
+    .nameLayout {
+        font-size:220%;
+    }
+  }
+
+.categoryLayout {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 7px;
+
+    color: #848484;
 }

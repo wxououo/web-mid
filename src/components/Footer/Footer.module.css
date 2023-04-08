@@ -2,8 +2,8 @@
 .footerAbove {
     background-color: #F5EEFF;
     color: rgb(0, 0, 0);
-
     padding: 5rem;
+    margin-top: 5%;
 }
 
 .main{
@@ -19,7 +19,9 @@
     composes:main;
     /* background-color: #85b1dd; */
     font-size: 1rem;
+    color: #2c3e50b2;
 }
+
 
 .footerList {
     list-style: none;

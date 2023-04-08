@@ -1,6 +1,6 @@
+import { Button } from "antd"
 import { useDispatch } from "react-redux";
 import { addCartItems } from "../../redux/cartSlice";
-import { Button, notification } from "antd"
 import styles from "./addtocart.module.css"
 
 export default function AddToCart({ product, qty }) {
@@ -28,7 +28,7 @@ export default function AddToCart({ product, qty }) {
 
   return (
     <Button type="primary" className={styles.btn} onClick={addToCart}>
-      <img className={styles.image} src="/images/basket.svg" />Add To Cart
+      <div className={styles.wordLayout}>Add to cart</div>
     </Button>
   );
 }

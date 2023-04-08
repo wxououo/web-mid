@@ -39,20 +39,3 @@
 .price {
    font-size: 1.5rem;
 }
-
-.block{
-   display: flex;
-   background-color: black;
-   /* background-image: url(/public/images/star.jpg); */
-   color: aliceblue;
-   width: 300px;
-   height: 500px;
-   align-items: center;
-   justify-content: center;
-   border-top-right-radius: 150px;
-   border-top-left-radius: 150px;
-}
-
-.blockimg{
-   width: 100%;
-}

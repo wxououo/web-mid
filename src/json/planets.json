@@ -2,7 +2,7 @@
     {
         "id": "dsad",
         "category":"Planet",
-        "name":"planet1",
+        "name":"M-15894545",
         "price":900000,
         "stock":1,
         "image": "/images/planet1.png"
@@ -10,7 +10,7 @@
     {
         "id": "bdvef",
         "category":"Planet",
-        "name":"planet2",
+        "name":"CH-0098 K",
         "price":729000,
         "stock":1,
         "image": "/images/planet5.png"
@@ -18,7 +18,7 @@
     {
         "id": "svs",
         "category":"Planet",
-        "name":"planet3",
+        "name":"DI-5693 P",
         "price":5400,
         "stock":1,
         "image": "/images/planet12.png"
@@ -26,20 +26,133 @@
     {
         "id": "fwrr",
         "category":"Planet",
-        "name":"planet4",
+        "name":"N-200245106",
         "price":3000,
         "stock":1,
         "image": "/images/planet13.png"
     },
+    {
+        "id": "kkjy",
+        "category":"Planet",
+        "name":"Y-000489654",
+        "price":3000,
+        "stock":1,
+        "image": "/images/planet2.png"
+    },   
+    {
+        "id": "hidc",
+        "category":"Planet",
+        "name":"HR-3198 A",
+        "price":3000,
+        "stock":1,
+        "image": "/images/planet3.png"
+    },    
+    {
+        "id": "kixn",
+        "category":"Planet",
+        "name":"BC-2776 Z",
+        "price":3000,
+        "stock":1,
+        "image": "/images/planet4.png"
+    }, 
+    {
+        "id": "hizc",
+        "category":"Planet",
+        "name":"A-652389994",
+        "price":3000,
+        "stock":1,
+        "image": "/images/planet6.png"
+    }, 
+    {
+        "id": "hadc",
+        "category":"Planet",
+        "name":"BZ-6301 S",
+        "price":3000,
+        "stock":1,
+        "image": "/images/planet7.png"
+    }, 
     {
         "id": "zlak",
         "category":"Pet",
         "name":"Kirby",
         "price":3000,
         "stock":5,
-        "image": "/images/kirby_pink.webp"
-    }
+        "image": "/images/Chara_3_kirby_00.webp"
+    },
 
+
+    {
+        "id": "dewa",
+        "category":"Island",
+        "name":"Santotariny",
+        "price":368000000000,
+        "stock":1,
+        "image": "/images/island7.jpeg"
+    },
+    {
+        "id": "hsew",
+        "category":"Island",
+        "name":"Mauridius",
+        "price":368000000000,
+        "stock":1,
+        "image": "/images/island1.jpeg"
+    },
+    {
+        "id": "zxdw",
+        "category":"Island",
+        "name":"Wittday Islands",
+        "price":368000000000,
+        "stock":1,
+        "image": "/images/island2.jpeg"
+    },   
+    {
+        "id": "plow",
+        "category":"Island",
+        "name":"Mora Mora",
+        "price":368000000000,
+        "stock":1,
+        "image": "/images/island3.jpeg"
+    },
+    {
+        "id": "pdfg",
+        "category":"Island",
+        "name":"St. Lucifa",
+        "price":368000000000,
+        "stock":1,
+        "image": "/images/island4.jpeg"
+    },
+    {
+        "id": "pasg",
+        "category":"Island",
+        "name":"Malwides",
+        "price":368000000000,
+        "stock":1,
+        "image": "/images/island5.jpeg"
+    },
+    {
+        "id": "asdg",
+        "category":"Island",
+        "name":"Deychollos",
+        "price":368000000000,
+        "stock":1,
+        "image": "/images/island6.jpeg"
+    },
+    {
+        "id": "zasv",
+        "category":"RocketTicket",
+        "name":"Walk on Moon",
+        "price":368000000000,
+        "stock":5,
+        "image": "/images/rocketticket1.jpg"
+    },
+    {
+        "id": "poiv",
+        "category":"RocketTicket",
+        "name":"Search the Earth",
+        "price":368000000000,
+        "stock":5,
+        "image": "/images/rocketticket2.jpg"
+    }
 
 ]
   

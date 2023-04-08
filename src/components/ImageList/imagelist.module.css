@@ -1,8 +1,16 @@
 /* Image Style */
+.mainLayout{
+    margin: 1% 8%;
+}
+
 .imageLayout {
     font-size: 1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+
+.item{
+    min-height: 100vh;
 }
 
 .imageLayout h1 {

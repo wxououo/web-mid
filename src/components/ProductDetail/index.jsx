@@ -8,7 +8,7 @@ function ProductDetail({ product }) {
    const [qty, setQty] = useState(product.stock > 0 ? 1 : 0);
    
    return (
-      <Row gutter={[32, 32]}
+      <Row gutter={[]}
          style={{ justifyContent: 'center' }}
       >
          <Col
@@ -55,10 +55,8 @@ function ProductDetail({ product }) {
                      Total Price: {product.price * qty}
                   </p>
 
-                  <AddToCart />
-                  <div className={styles.block}>
-                      <img src={product.image} className={styles.blockimg}/>
-                  </div>
+                  <AddToCart  product={product} qty={qty}/>
+
                </div>
             </div>
          </Col>

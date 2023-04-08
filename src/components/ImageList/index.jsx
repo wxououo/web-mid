@@ -6,11 +6,11 @@ import ImageItem from '../ImageItem'
 
 export default function ImageList({ products }) {
     return (
-        <article className="row">
-            <h1>ITEMS</h1>
-            <Row gutter={[24, 8]}>
+        <div className={styles.mainLayout}>
+        <article className={styles.item}>
+            <Row gutter={[0,50]}>
                 {products.map(data => (
-
+                
                     <Col key={data.id} className={styles.image} sm={{ span: 12 }} lg={{ span: 6 }}>
 
                         <ImageItem imagedata={data} />
@@ -20,5 +20,6 @@ export default function ImageList({ products }) {
             </Row>
             {/* </div> */}
         </article>
+        </div>
     )
 }

@@ -18,8 +18,6 @@ export default function Home() {
                 <Header />
                 <Description />
                 <HomeItem />
-                {/* <Items/> */}
-
                 <Footer />
             </div>
         </body>

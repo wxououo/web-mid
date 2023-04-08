@@ -9,9 +9,9 @@
   margin: 0;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:absoulte;
   background-size: cover;
-  background-image:url("./images/bg0.jpg");
+  background-image:url("images/bg0.jpg");
 }
 
 .logo {

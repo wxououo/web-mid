@@ -11,8 +11,8 @@ export default function Homeitems() {
 
             </div>
             <div className={styles.imageShapeArea}>
-                <Row gutter={10}>
-                    <Col span={12} lg={6} md={12} sm={24} xs={24}>
+                <Row gutter={15}>
+                    <Col span={12} lg={6} md={12} sm={12} xs={12}>
                         <div className={styles.imageShape}>
                             <img src="./images/pet.jpeg" alt="Home Image" />
                             <svg>
@@ -25,7 +25,7 @@ export default function Homeitems() {
                         </div>
                     </Col>
 
-                    <Col span={12} lg={6} md={12} sm={24} xs={24}>
+                    <Col span={12} lg={6} md={12} sm={12} xs={12}>
                         <div className={styles.imageShape}>
                             <img src="./images/island.jpg" alt="Home Image" />
                             <svg>
@@ -38,7 +38,7 @@ export default function Homeitems() {
                         </div>
                     </Col>
 
-                    <Col span={12} lg={6} md={12} sm={24} xs={24}>
+                    <Col span={12} lg={6} md={12} sm={12} xs={12}>
                         <div className={styles.imageShape}>
                         <img src="./images/planet.jpg" alt="Home Image"/>
                             <svg>
@@ -51,7 +51,7 @@ export default function Homeitems() {
                         </div>
                     </Col>
 
-                    <Col span={12} lg={6} md={12} sm={24} xs={24}>
+                    <Col span={12} lg={6} md={12} sm={12} xs={12}>
                     <div className={styles.imageShape}>
                     <img src="./images/rocketticket.jpg" alt="Home Image"/>
                             <svg>

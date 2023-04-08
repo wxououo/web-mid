@@ -7,16 +7,13 @@
 
 .Sentence1{
     font-family: 'Italiana', serif;    
-    font-style: normal;
-    font-weight:400;
-    font-size: 30px;
+    /* font-weight:600; */
+    font-size: 1.2rem;
     line-height: 47px;
     text-align: center;
     letter-spacing: 0.1em;
-    
     color: #515151;
-    font: weight 5px;
-    
+    -webkit-text-stroke: 0.5px #686868;
 }
 
 .Sentence2{

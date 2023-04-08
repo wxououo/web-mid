@@ -2,11 +2,14 @@
 .header {
   background-color: rgba(255, 255, 255, 0);
   height: 500px;
-  padding:80px 90px 80px 90px;
+  padding:8rem 90px 80px 90px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.a{
+  text-decoration: none;
 }
 .sqare{
   background-color: #fffefd;

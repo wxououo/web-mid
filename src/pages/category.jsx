@@ -8,23 +8,29 @@ import planets from "../json/planets.json";
 export default function Category() {
     const { productCat } = useParams();
     const _products = !productCat
-      ? planets
-      : planets.filter(
-          x => x?.category.toUpperCase() === productCat.toUpperCase()
+        ? planets
+        : planets.filter(
+            x => x?.category.toUpperCase() === productCat.toUpperCase()
         );
-      
-      
+
+    // const { kirbydisplay } = useParams();
+    // const kirby = ! kirbydisplay
+    //     ? planets
+    //     : planets.filter(
+    //         x => x?.aa.toUpperCase() ===  none
+    //     );
+
     return (
-        <body background="./images/bg0.jpg" >
-        <div className="mainLayout">
-            <Helmet><title>category</title></Helmet>
-            <Header/>
-            <ImageList
-            products={_products} 
-            />
-            {/* <Description/> */}
-            <Footer/>
-        </div>
+        <body className="bg" >
+            <div className="mainLayout">
+                <Helmet><title>category</title></Helmet>
+                <Header />
+                <ImageList
+                    products={_products}
+                />
+                {/* <Description/> */}
+                <Footer />
+            </div>
         </body>
     );
 }

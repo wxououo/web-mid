@@ -2,16 +2,18 @@
  .navBar {
    display: none;
    flex-direction: row;
-   justify-content: space-around;
-   margin-top: 3rem;
-   margin-bottom: 2rem;
+   text-align: center;
+   justify-content: center;
+   width: 100%;
+   margin-top: 1rem;
+   margin-bottom: 1.5rem;
    background-color: rgb(255, 255, 255);
+   opacity: 50%;
  }
  
  .navItem {
   font-size: 1rem;
-  margin-bottom: 2rem;
-  margin-left: 2rem;
+  margin: 1rem;
   cursor: pointer;
   color: rgb(20, 20, 20);
   opacity: 0.6;

@@ -12,8 +12,8 @@ import { Carousel } from 'antd';
 export default function Description() {
     return (
         // <Carousel className={styles.Carousel} slides={slides} autoplay={true} interval={3000} />
-        <Carousel autoplay> 
-             <div>
+        <Carousel className={styles.cover} autoplay >
+            <div>
                 <h3 className={styles.contentStyle}>1</h3>
             </div>
             <div>
@@ -25,7 +25,7 @@ export default function Description() {
             <div>
                 <h3 className={styles.contentStyle}>4</h3>
             </div>
-        </Carousel> 
+        </Carousel>
     )
 }
 

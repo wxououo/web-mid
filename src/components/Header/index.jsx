@@ -13,11 +13,13 @@ export default function Header({ title, slogan }) {
                 onClick={() => setIsOnTouch(!isOnTouch)}
                 isOnTouch={isOnTouch}
             />
-            <Link to="/" className={styles.sqare} >
+            <div  className={styles.sqare} >
+            <Link to="/" className={styles.a}>
                 <div className={styles.headerTitle}>iridescent</div>
                 <div className={styles.headerLine}></div>
             </Link>
             <Cart />
+            </div>
             <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)}/>
         </header>
     )

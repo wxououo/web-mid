@@ -14,7 +14,7 @@ function Product() {
 
    return (
       
-      <div className="container mainLayout">
+      <div className ="bg">
          <Helmet><title>{product.name}</title></Helmet>
          <Header
             className="layoutHeader"
