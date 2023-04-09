@@ -12,7 +12,8 @@ import { Helmet } from "react-helmet-async"
 
 export default function Home() {
     return (
-        <body className="bg">
+        <body >
+            <img src="images/bg0.jpg" alt="0" className="bgimg"/>
             <div className="mainLayout">
                 <Helmet><title>iridescent</title></Helmet>
                 <Header />

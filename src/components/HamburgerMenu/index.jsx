@@ -7,9 +7,9 @@ export default function HamMenu({ onClick, isOnTouch }) {
 
    return (
       <span onClick={onClick} className={`${styles.hamMenu} ${styles.showMobile}`}>
-         <span className={bar1Style}></span>
+         {/* <span className={bar1Style}></span>
          <span className={bar2Style}></span>
-         <span className={bar3Style}></span>
+         <span className={bar3Style}></span> */}
       </span>
    );
 }

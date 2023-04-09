@@ -1,8 +1,9 @@
-import { Button } from "antd"
+import { Button , notification} from "antd"
 import { useDispatch } from "react-redux";
 import { addCartItems } from "../../redux/cartSlice";
 import styles from "./addtocart.module.css"
 
+import FormatNumber from "../../thousand";
 export default function AddToCart({ product, qty }) {
   const dispatch = useDispatch();
 
@@ -28,7 +29,8 @@ export default function AddToCart({ product, qty }) {
 
   return (
     <Button type="primary" className={styles.btn} onClick={addToCart}>
-      <div className={styles.wordLayout}>Add to cart</div>
+      <div className={styles.wordLayout}>${FormatNumber(product.price)}</div>
+      <div></div>
     </Button>
   );
 }

@@ -10,7 +10,7 @@ export default function ImageItem({ imagedata }) {
             </Link>
             <div className={styles.nameLayout}>{imagedata.name}</div>
             <div className={styles.categoryLayout}>{imagedata.category}</div>
-            <AddToCart />
+            <AddToCart product={imagedata} qty={1}/>
         </div>
     )
 }

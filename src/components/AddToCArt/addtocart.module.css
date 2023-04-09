@@ -1,10 +1,12 @@
 .btn {
-    height: auto;
-    font-size: 1.2rem;
-    padding: 0.5rem 2rem;
-    font-weight: 300;
-    text-transform: uppercase;
- }
+   margin-top: 15px;
+   height: auto;
+   font-size: 1.2rem;
+   padding: 1.2rem 40%;
+   font-weight: 300;
+   background: #BCCFD5;
+   border-radius: 50px;
+}
  
  .image {
     width: 1.5rem;
@@ -12,3 +14,16 @@
     margin-right: 0.5rem;
     padding-bottom: 0.3rem;
  }
+
+ .wordLayout {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 20px;
+   line-height: 30px;
+   /* identical to box height */
+
+   text-align: center;
+
+   color: #FFFFFF;
+}

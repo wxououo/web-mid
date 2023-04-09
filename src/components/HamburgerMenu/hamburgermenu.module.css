@@ -2,7 +2,7 @@
   display: inline-block;
   position: absolute;
   z-index: 9;
-  background-color: #9aa9ce;
+  background-color: #ffffff;
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 2rem;
@@ -21,14 +21,15 @@
 .hamMenu:hover {
   opacity: 1;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .baseMenuBar {
   display: inline-block;
   position: relative;
-  background-color: #22223f;
   width: 24px;
   height: 3px;
+  text-decoration: none;
 }
 
 .hamMenuBar1 {

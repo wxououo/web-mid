@@ -14,7 +14,8 @@ function Product() {
 
    return (
       
-      <div className ="bg">
+      <div>
+           <img src="../../../public/images/bg0.jpg" alt="0" className="bgimg"/>
          <Helmet><title>{product.name}</title></Helmet>
          <Header
             className="layoutHeader"

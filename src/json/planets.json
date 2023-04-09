@@ -5,7 +5,11 @@
         "name":"M-15894545",
         "price":900000,
         "stock":1,
-        "image": "/images/planet1.png"
+        "image": "/images/planet1.png",        
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 336.005 AU from Earth",
+        "intro3":"✓ Rich in mineral resources",
+        "intro4":"✓ Located at γαλαξίας" 
     },
     {
         "id": "bdvef",
@@ -13,145 +17,445 @@
         "name":"CH-0098 K",
         "price":729000,
         "stock":1,
-        "image": "/images/planet5.png"
+        "image": "/images/planet5.png",        
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 44.783 AU from Earth",
+        "intro3":"✓ Covered in icy glaciers and mountains",
+        "intro4":"✓ Located at Cassiopeia Galaxy"
     },
     {
         "id": "svs",
         "category":"Planet",
         "name":"DI-5693 P",
-        "price":5400,
+        "price":540000,
         "stock":1,
-        "image": "/images/planet12.png"
+        "image": "/images/planet12.png",        
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 609.86 AU from Earth",
+        "intro3":"✓ With a very weak luminosity",
+        "intro4":"✓ Located at Dorado"
     },
     {
         "id": "fwrr",
         "category":"Planet",
         "name":"N-200245106",
-        "price":3000,
+        "price":350000,
         "stock":1,
-        "image": "/images/planet13.png"
+        "image": "/images/planet13.png",        
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 55.124 AU from Earth",
+        "intro3":"✓ Without a solid surface, only floating things",
+        "intro4":"✓ Located at Lacerta Galaxy"
     },
     {
         "id": "kkjy",
         "category":"Planet",
         "name":"Y-000489654",
-        "price":3000,
+        "price":980000,
         "stock":1,
-        "image": "/images/planet2.png"
+        "image": "/images/planet2.png",        
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 1008.45 AU from Earth",
+        "intro3":"✓ Covered in vast vegetation, with many forests",
+        "intro4":"✓ Located at Sagittarius"
     },   
     {
         "id": "hidc",
         "category":"Planet",
         "name":"HR-3198 A",
-        "price":3000,
+        "price":765000,
         "stock":1,
-        "image": "/images/planet3.png"
+        "image": "/images/planet3.png",  
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 741.23 AU from Earth",
+        "intro3":"✓ Covered in deserts and volcanoes",
+        "intro4":"✓ Located at Vulpecula Galaxy"      
     },    
     {
         "id": "kixn",
         "category":"Planet",
         "name":"BC-2776 Z",
-        "price":3000,
+        "price":968000,
         "stock":1,
-        "image": "/images/planet4.png"
+        "image": "/images/planet4.png",        
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 568.742 AU from Earth",
+        "intro3":"✓ Orbit very close to the star's equator",
+        "intro4":"✓ Located at Triangulum" 
     }, 
     {
         "id": "hizc",
         "category":"Planet",
         "name":"A-652389994",
-        "price":3000,
+        "price":384000,
         "stock":1,
-        "image": "/images/planet6.png"
+        "image": "/images/planet6.png",
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 150.02 AU from Earth",
+        "intro3":"✓ Covered in deserts and volcanoes",
+        "intro4":"✓ Located at Oakland"        
     }, 
     {
         "id": "hadc",
         "category":"Planet",
         "name":"BZ-6301 S",
-        "price":3000,
+        "price":776300,
         "stock":1,
-        "image": "/images/planet7.png"
+        "image": "/images/planet7.png",        
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 150.02 AU from Earth",
+        "intro3":"✓ Full of crystal mountains and rainbow lakes",
+        "intro4":"✓ Located at Virgo Galaxy"  
     }, 
+    {
+        "id": "hall",
+        "category":"Planet",
+        "name":"GU-4451 C",
+        "price":562000,
+        "stock":1,
+        "image": "/images/planet8.png",        
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 336.236 AU from Earth",
+        "intro3":"✓ Only a thick atmosphere made of gas",
+        "intro4":"✓ Located at Serpens"  
+    },
+    {
+        "id": "hiuc",
+        "category":"Planet",
+        "name":"PK-2377 G",
+        "price":356700,
+        "stock":1,
+        "image": "/images/planet9.webp",        
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 305.63 AU from Earth",
+        "intro3":"✓ Has a diverse range of climates and ecosystems",
+        "intro4":"✓ Located at Pegasus"  
+    },
+    {
+        "id": "hppc",
+        "category":"Planet",
+        "name":"Y-986165663",
+        "price":732600,
+        "stock":1,
+        "image": "/images/planet10.png",        
+        "intro1":"✓ Name your own planet",
+        "intro2":"✓ 356.33 AU from Earth",
+        "intro3":"✓ Having unique geological features and life forms",
+        "intro4":"✓ Located at Orion"  
+    },
+
+
+
+
+
+
     {
         "id": "zlak",
         "category":"Pet",
         "name":"Kirby",
         "price":3000,
-        "stock":5,
-        "image": "/images/Chara_3_kirby_00.webp"
+        "stock":10,
+        "image": "/images/pet1.png",        
+        "intro1":"✓ Get your own magic pet",
+        "intro2":"✓ Ability to inhale objects and creatures to gain their powers",
+        "intro3":"✓ Born in 2025",
+        "intro4":"✓ Health coverage for up to one year" 
     },
-
+    {
+        "id": "zask",
+        "category":"Pet",
+        "name":"Mini Fiy Dragon",
+        "price":3000,
+        "stock":10,
+        "image": "/images/pet2.png",        
+        "intro1":"✓ Get your own magic pet",
+        "intro2":"✓ Ability to fly and do puppy eyes",
+        "intro3":"✓ Born in 2020",
+        "intro4":"✓ Health coverage for up to one year"
+    },   
+    {
+        "id": "zdsk",
+        "category":"Pet",
+        "name":"Dark Kirby",
+        "price":3000,
+        "stock":10,
+        "image": "/images/pet3.png",        
+        "intro1":"✓ Get your own magic pet",
+        "intro2":"✓ Ability to inhale objects and creatures to gain their powers",
+        "intro3":"✓ Born in 2025",
+        "intro4":"✓ Health coverage for up to one year"
+    },
+    {
+        "id": "zxcb",
+        "category":"Pet",
+        "name":"Catty Dragon",
+        "price":3000,
+        "stock":10,
+        "image": "/images/pet4.png",        
+        "intro1":"✓ Get your own magic pet",
+        "intro2":"✓ Ability to swim and have fluffy hair",
+        "intro3":"✓ Born in 2023",
+        "intro4":"✓ Health coverage for up to one year"
+    },
+    {
+        "id": "zsak",
+        "category":"Pet",
+        "name":"Space Wolf",
+        "price":3000,
+        "stock":3,
+        "image": "/images/pet5.png",        
+        "intro1":"✓ Get your own magic pet",
+        "intro2":"✓ Often depicted as a symbol of fear, danger, and chaos",
+        "intro3":"✓ Born in 2025",
+        "intro4":"✓ Health coverage for up to one year"
+    },
+    {
+        "id": "asdk",
+        "category":"Pet",
+        "name":"Aladdin Kirby",
+        "price":3000,
+        "stock":5,
+        "image": "/images/Pet.png",        
+        "intro1":"✓ Get your own magic pet",
+        "intro2":"✓ Ability to make your wish come true",
+        "intro3":"✓ Born in 2025",
+        "intro4":"✓ Health coverage for up to one year"
+    },
+    {
+        "id": "addf",
+        "category":"Pet",
+        "name":"Kirby Twins",
+        "price":3000,
+        "stock":10,
+        "image": "/images/pet7.png",        
+        "intro1":"✓ Get your own magic pet",
+        "intro2":"✓ Ability to inhale objects to gain their powers",
+        "intro3":"✓ Born in 2025",
+        "intro4":"✓ Health coverage for up to one year"
+    },
+    {
+        "id": "fghj",
+        "category":"Pet",
+        "name":"Penguin Kirby",
+        "price":3000,
+        "stock":5,
+        "image": "/images/pet8.png",        
+        "intro1":"✓ Get your own magic pet",
+        "intro2":"✓ Ability to inhale objects to gain their powers",
+        "intro3":"✓ Born in 2025",
+        "intro4":"✓ Health coverage for up to one year"
+    },
+    {
+        "id": "hjkj",
+        "category":"Pet",
+        "name":"Green Kirby",
+        "price":3000,
+        "stock":5,
+        "image": "/images/pet9.png",        
+        "intro1":"✓ Get your own magic pet",
+        "intro2":"✓ Ability to heal your eyes and soul",
+        "intro3":"✓ Born in 2025",
+        "intro4":"✓ Health coverage for up to one year"
+    },
+    {
+        "id": "fiuj",
+        "category":"Pet",
+        "name":"Kirby King",
+        "price":3000,
+        "stock":10,
+        "image": "/images/pet10.png",        
+        "intro1":"✓ Get your own magic pet",
+        "intro2":"✓ Ability to make you be its knight",
+        "intro3":"✓ Born in 2025",
+        "intro4":"✓ Health coverage for up to one year"
+    },
 
     {
         "id": "dewa",
         "category":"Island",
         "name":"Santotariny",
-        "price":368000000000,
+        "price":97866000000,
         "stock":1,
-        "image": "/images/island7.jpeg"
+        "image": "/images/island7.jpeg",        
+        "intro1":"✓ Buy your own island",
+        "intro2":"✓ rugged terrain and majestic volcanic mountains",
+        "intro3":"✓ 33°14'04.4'N 146°49'26.6'W"
     },
     {
         "id": "hsew",
         "category":"Island",
         "name":"Mauridius",
-        "price":368000000000,
+        "price":566326900000,
         "stock":1,
-        "image": "/images/island1.jpeg"
+        "image": "/images/island1.jpeg",        
+        "intro1":"✓ Buy your own island",
+        "intro2":"✓ Cactus gardens and rugged coastlines",
+        "intro3":"✓ 17°05'56.3'S 110°54'25.2'E"
     },
     {
         "id": "zxdw",
         "category":"Island",
-        "name":"Wittday Islands",
-        "price":368000000000,
+        "name":"Wittday Island",
+        "price":20203698000,
         "stock":1,
-        "image": "/images/island2.jpeg"
+        "image": "/images/island2.jpeg",        
+        "intro1":"✓ Buy your own island",
+        "intro2":"✓ Special shape of heart for lovers",
+        "intro3":"✓ 7°38'52.4'S 74°41'43.5'E"
     },   
     {
         "id": "plow",
         "category":"Island",
         "name":"Mora Mora",
-        "price":368000000000,
+        "price":35933870000,
         "stock":1,
-        "image": "/images/island3.jpeg"
+        "image": "/images/island3.jpeg",        
+        "intro1":"✓ Buy your own island",
+        "intro2":"✓ World-class amenities and stunning landscapes",
+        "intro3":"✓ 35°37'21.0'N 18°46'57.0'E"
     },
     {
         "id": "pdfg",
         "category":"Island",
         "name":"St. Lucifa",
-        "price":368000000000,
+        "price":320069000000,
         "stock":1,
-        "image": "/images/island4.jpeg"
+        "image": "/images/island4.jpeg",        
+        "intro1":"✓ Buy your own island",
+        "intro2":"✓ Pristine beaches and protected wildlife",
+        "intro3":"✓ 28°31'51.7'N 44°56'14.6'W" 
     },
     {
         "id": "pasg",
         "category":"Island",
         "name":"Malwides",
-        "price":368000000000,
+        "price":78993000000,
         "stock":1,
-        "image": "/images/island5.jpeg"
+        "image": "/images/island5.jpeg",        
+        "intro1":"✓ Buy your own island",
+        "intro2":"✓ Vibrant marine life and water sports activities",
+        "intro3":"✓ 35°24'36.4'N 64°00'05.8'W" 
     },
     {
         "id": "asdg",
         "category":"Island",
         "name":"Deychollos",
+        "price":398060000000,
+        "stock":1,
+        "image": "/images/island6.jpeg",        
+        "intro1":"✓ Buy your own island",
+        "intro2":"✓ Four differnt small pieses to enjoy",
+        "intro3":"✓ 24°30'41.5'N 164°07'11.1'W" 
+    },
+    {
+        "id": "xcvv",
+        "category":"Island",
+        "name":"Kanafooga Island",
         "price":368000000000,
         "stock":1,
-        "image": "/images/island6.jpeg"
+        "image": "/images/island8.jpg",        
+        "intro1":"✓ Buy your own island",
+        "intro2":"✓ Stunning landscapes and adrenaline-pumping activities",
+        "intro3":"✓ 19°08'21.7'N 155°06'02.6'W" 
     },
+
+
+
     {
         "id": "zasv",
         "category":"RocketTicket",
         "name":"Walk on Moon",
-        "price":368000000000,
-        "stock":5,
-        "image": "/images/rocketticket1.jpg"
+        "price":85960000000,
+        "stock":4,
+        "image": "/images/rocketticket1.jpg",        
+        "intro1":"✓ Round-trip ticket",
+        "intro2":"✓ 1 month and 15 days",
+        "intro3":"✓ ETD : September, 23rd, 2033",
+        "intro4":"✓ Destination : Mons Agnes of Moon" 
     },
     {
         "id": "poiv",
         "category":"RocketTicket",
         "name":"Search the Earth",
-        "price":368000000000,
-        "stock":5,
-        "image": "/images/rocketticket2.jpg"
+        "price":566230000,
+        "stock":4,
+        "image": "/images/rocketticket2.jpg",        
+        "intro1":"✓ Round-trip ticket",
+        "intro2":"✓ 7 days and 10 hrs",
+        "intro3":"✓ ETD : March, 15th, 2025",
+        "intro4":"✓ Destination : Magnetosphere" 
+    },
+    {
+        "id": "cxfv",
+        "category":"RocketTicket",
+        "name":"Space Odyssey",
+        "price":980230000,
+        "stock":4,
+        "image": "/images/rocketticket3.jpg",        
+        "intro1":"✓ Round-trip ticket",
+        "intro2":"✓ 20 days",
+        "intro3":"✓ ETD : July, 15th, 2025",
+        "intro4":"✓ Destination : Solar System"
+    },
+    {
+        "id": "sfdv",
+        "category":"RocketTicket",
+        "name":"Walk on Mars",
+        "price":98960000000,
+        "stock":4,
+        "image": "/images/rocketticket4.jpg",        
+        "intro1":"✓ One-way ticket",
+        "intro2":"✓ 5 months and 20 days",
+        "intro3":"✓ ETD : December, 15th, 2035",
+        "intro4":"✓ Destination : Mars"
+    },
+    {
+        "id": "pozd",
+        "category":"RocketTicket",
+        "name":"Interstellar",
+        "price":660000000,
+        "stock":4,
+        "image": "/images/rocketticket5.jpg",        
+        "intro1":"✓ Round-trip ticket",
+        "intro2":"✓ 7 days",
+        "intro3":"✓ ETD : Febuary, 15th, 2025",
+        "intro4":"✓ Destination : Solar System"
+    },
+    {
+        "id": "pzdx",
+        "category":"RocketTicket",
+        "name":"Search the Earth",
+        "price":7850000000,
+        "stock":4,
+        "image": "/images/rocketticket6.jpg",        
+        "intro1":"✓ One-way ticket",
+        "intro2":"✓ 10 days",
+        "intro3":"✓ ETD : April, 15th, 2027",
+        "intro4":"✓ Destination : Moon"
+    },
+    {
+        "id": "assv",
+        "category":"RocketTicket",
+        "name":"Search the Earth",
+        "price":630500000,
+        "stock":4,
+        "image": "/images/rocketticket7.jpg",        
+        "intro1":"✓ Round-trip ticket",
+        "intro2":"✓ 3 days",
+        "intro3":"✓ ETD : June, 15th, 2026",
+        "intro4":"✓ Destination : Magnetosphere"
+    },
+    {
+        "id": "vcxv",
+        "category":"RocketTicket",
+        "name":"Swin in Universe",
+        "price":56090000000,
+        "stock":4,
+        "image": "/images/rocketticket8.jpg",        
+        "intro1":"✓ Round-trip ticket",
+        "intro2":"✓ 5 days",
+        "intro3":"✓ ETD : October, 15th, 2026",
+        "intro4":"✓ Destination : Magnetosphere"
     }
 
 ]

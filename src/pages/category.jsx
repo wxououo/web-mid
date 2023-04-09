@@ -21,7 +21,8 @@ export default function Category() {
     //     );
 
     return (
-        <body className="bg" >
+        <body>
+            <img src="../../../public/images/bg0.jpg" alt="0" className="bgimg"/>
             <div className="mainLayout">
                 <Helmet><title>category</title></Helmet>
                 <Header />

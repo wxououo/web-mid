@@ -9,17 +9,22 @@ import { HelmetProvider } from 'react-helmet-async'
 import { Provider } from "react-redux";
 import { persistor, store } from './redux/store';
 import { PersistGate } from 'redux-persist/integration/react';
+import ScrollToTop from "./scrollToTop";
 
 
 export default function App() {
+
+
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <HelmetProvider context={{}}>
           <BrowserRouter>
+          <ScrollToTop />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="category/:productCat" element={<Category />} />
+              
               <Route path="products/:productId" element={<Products />} />
 
             </Routes>

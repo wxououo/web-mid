@@ -1,7 +1,16 @@
+.imageLayout {
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    /* padding-top: 3rem;
+    padding-bottom: 3rem; */
+}
 
 .imageStyle {
     width: 80%;
-    aspect-ratio: 1 / 1;
+   height: 80%;
     object-fit: cover;
     display: block;
     align-items: center;
@@ -9,14 +18,7 @@
 }
 
 
-.imageLayout {
-    display: flex;
-    font-size: 1rem;
-    align-items: center;
-    justify-content: center;
-    /* padding-top: 3rem;
-    padding-bottom: 3rem; */
-}
+
 
 .imageLayout h1 {
     display: flex;

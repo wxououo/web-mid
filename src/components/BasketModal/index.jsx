@@ -9,6 +9,8 @@ import { selectCartItems } from "../../redux/cartSlice";
 const { Option } = Select;
 import { Drawer } from 'antd';
 
+import FormatNumber from "../../thousand";
+
 export default function BasketModal({ isOpen, toggleModal }) {
    const dispatch = useDispatch();
    const cartItems = useSelector(selectCartItems);
@@ -17,8 +19,8 @@ export default function BasketModal({ isOpen, toggleModal }) {
    const getTotalPrice = () => {
       return (cartItems.length > 0) ?
          cartItems.reduce((sum, item) => sum + item.price * item.qty, 0)
-         : 0;
-   }
+         : 0;   
+   } 
 
    return (
       <Drawer
@@ -32,6 +34,7 @@ export default function BasketModal({ isOpen, toggleModal }) {
             <div>Cart is empty</div>
          ) : (
             cartItems.map(item => (
+               
                <li key={item.id} className={styles.item}>
                   <Link to={`/products/${item.id}`}>
                      <div onClick={handleCancel}>
@@ -63,10 +66,12 @@ export default function BasketModal({ isOpen, toggleModal }) {
                   </div>
                   <div>
                      <div className={styles.priceCount}>
-                        {item.price}x{item.qty}=
+                         
+                     {FormatNumber(item.price )}x{item.qty}=
                         </div>
                         <div className={styles.price}>
-                        ${item.price * item.qty}
+                        
+                        ${FormatNumber(item.price * item.qty)}
                      </div>
                      <div className={styles.delete} onClick={() => dispatch(removeCartItems(item.id))}>
                         x
@@ -77,7 +82,7 @@ export default function BasketModal({ isOpen, toggleModal }) {
          )}
          <div className={styles.wrap}>
             Total
-            <div className={styles.totalPrice}>${getTotalPrice()}</div>
+            <div className={styles.totalPrice}>${FormatNumber(getTotalPrice())}</div>
          </div>
          <Button
             className={styles.btn}

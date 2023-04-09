@@ -6,20 +6,26 @@
     margin-top: 5%;
 }
 
-.main{
+.main {
     /* background-color: #86e28d; */
     margin: 0;
-    padding:20px;
+    padding: 20px;
     /* padding-bottom: 30px; */
     align-self: center;
     font-size: 1.25rem;
-    text-align:left;
+    text-align: left;
 }
-.sub{
-    composes:main;
+
+.sub {
+    composes: main;
     /* background-color: #85b1dd; */
     font-size: 1rem;
     color: #2c3e50b2;
+}
+
+.sub:hover {
+    background-color: #c4a5f0;
+    width: 50%;
 }
 
 

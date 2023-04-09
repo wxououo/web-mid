@@ -5,15 +5,15 @@
   text-align: center;
 }
 
-.bg{
-  margin: 0;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position:absoulte;
-  background-size: cover;
-  background-image:url("images/bg0.jpg");
-}
 
+.bgimg{
+  z-index: -1;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 300vh;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
