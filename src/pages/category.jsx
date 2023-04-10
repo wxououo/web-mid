@@ -22,7 +22,7 @@ export default function Category() {
 
     return (
         <body>
-            <img src="../../../public/images/bg0.jpg" alt="0" className="bgimg"/>
+            <img src="/images/bg0.jpg" alt="0" className="bgimg"/>
             <div className="mainLayout">
                 <Helmet><title>category</title></Helmet>
                 <Header />
