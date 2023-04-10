@@ -68,7 +68,7 @@ export default function BasketModal({ isOpen, toggleModal }) {
                   </div>
                   <div>
                      <div className={styles.delete} onClick={() => dispatch(removeCartItems(item.id))}>
-                        <img className={styles.bin} src="../../../public/images/bin.png" alt="x" />
+                        <img className={styles.bin} src="/images/bin.png" alt="x" />
                      </div>
                      <div className={styles.priceCount}>
                         {FormatNumber(item.price)}x{item.qty}=

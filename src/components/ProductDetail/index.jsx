@@ -50,6 +50,8 @@ function ProductDetail({ product }) {
                   <div className={styles.qty}>
                       {"   "}
                      <Select
+                     size="large"
+                     
                         defaultValue={qty}
                         key={qty}                        
                         className={styles.selectStyle}
