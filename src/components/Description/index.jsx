@@ -7,16 +7,16 @@ export default function Description() {
        
         <Carousel className={styles.cover}  autoplay>
             <div className={styles.contentStyle}>
-            <img className={styles.img} src="../../../public/images/home1.jpg" alt="1" />
+            <img className={styles.img} src="/images/home1.jpg" alt="1" />
             </div>
             <div className={styles.contentStyle}>
-            <img className={styles.img} src="../../../public/images/home2.jpeg" alt="2" />
+            <img className={styles.img} src="/images/home2.jpeg" alt="2" />
             </div>
             <div className={styles.contentStyle}>
-            <img className={styles.img} src="../../../public/images/home3.webp" alt="3" />
+            <img className={styles.img} src="/images/home3.webp" alt="3" />
             </div>
             <div className={styles.contentStyle}>
-            <img className={styles.img} src="../../../public/images/home4.png" alt="4" />
+            <img className={styles.img} src="/images/home4.png" alt="4" />
             </div>
         </Carousel>
     )
