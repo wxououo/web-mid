@@ -9,10 +9,11 @@ export default function AddToCart({ product, qty }) {
 
   const openNotification = () => {
     notification.open({
-      message: 'Shopping Notification',
+      message: 'Thank for your shopping !',
       description:
-        `${qty} ${qty > 1 ? "pieces" : "piece"} of ${product.name} ${qty > 1 ? "have" : "has"} been added to your cart.`,
-      placement: 'bottomRight'
+        `♡ add ${qty} ${qty > 1 ? "pieces" : "piece"} of ${product.name} to your bag ♡`,
+      className: styles.myNotification,
+      placement: 'bottomRight',
     });
   };
   const addToCart = () => {
@@ -28,7 +29,7 @@ export default function AddToCart({ product, qty }) {
   };
 
   return (
-    <Button type="primary" className={styles.btn} onClick={addToCart}>
+    <Button className={styles.btn} onClick={addToCart}>
       <div className={styles.wordLayout}>${FormatNumber(product.price)}</div>
       <div></div>
     </Button>

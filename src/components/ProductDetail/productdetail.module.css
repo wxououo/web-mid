@@ -9,8 +9,15 @@
    object-fit: cover;
    object-position: center;
    border-radius: 2%;
-   margin-bottom: 5%;
+   margin-bottom: 8%;
+
    padding-bottom: 0;
+}
+
+@media (max-width: 998px) {
+   .image {
+      margin-top: 5%;
+   }
 }
 
 .info {
@@ -27,6 +34,11 @@
    text-transform: uppercase;
    color: #848484;
 }
+@media (max-width: 998px) {
+   .category {
+      font-size: 1.5rem;
+   }
+}
 
 .title {
    font-family: 'Jacques Francois', serif;
@@ -38,7 +50,11 @@
    margin-top: 10px;
    color: #3f3f3f;
 }
-
+@media (max-width: 998px) {
+   .title {
+      font-size: 3.3rem;
+   }
+}
 .square {
    margin-top: 8%;
    padding: 6%;
@@ -57,9 +73,16 @@
    line-height: 25px;
    text-align: left;
    letter-spacing: 0.02em;
-   margin: 0px 0 17px 0 ;
+   margin: 0px 0 17px 0;
 
    color: #848484;
+}
+@media (max-width: 998px) {
+   .intro {
+      line-height: 2rem;
+      margin-bottom: 4%;
+      font-size: 2rem;
+   }
 }
 
 .price {
@@ -67,11 +90,14 @@
    font-style: normal;
    font-weight: 800;
    font-size: 30px;
-   margin: 40px 0 0 0 ;
+   margin: 40px 0 0 0;
    text-align: left;
-
    color: #000000;
-
+}
+@media (max-width: 998px) {
+   .price {
+      font-size: 2rem;
+   }
 }
 
 .name {
@@ -91,13 +117,15 @@
    display: flex;
    flex-direction: column;
 }
-.qty{
+
+.qty {
    position: left;
-      opacity: 0.6;
+   opacity: 0.6;
    font-size: 1rem;
    margin-bottom: 1rem;
 }
-.selectStyle{
+
+.selectStyle {
    width: 200px;
    margin-top: 30px;
    position: relative;

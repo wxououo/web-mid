@@ -5,6 +5,7 @@
    text-align: center;
    justify-content: center;
    width: 100%;
+   height: 100px;
    margin-top: 1rem;
    margin-bottom: 1.5rem;
    background-color: rgb(255, 255, 255);
@@ -13,8 +14,7 @@
  
  .navItem {
   font-size: 1rem;
-  padding: 1rem 4rem 1rem 4rem;
-
+  padding: 1.5% 4% 1.5% 4%;
   /* width: 10%; */
   cursor: pointer;
   color: rgb(20, 20, 20);
@@ -41,22 +41,24 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  line-height: 500%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
   .navBar {
     display: flex;
   }
   .drawer {
     display: flex;
   }
+}
 
+@media (max-width:390px) {
   .navItem {
     color: rgba(0, 0, 0, 0.671);
-    font-size: 1rem;
-    margin-bottom: 2rm;
-    margin-left: 2rm;
+    font-size: 8rem;
+    margin-left: 2rem;
     text-align: left;
+    background-color: aqua;
   }
-
 }

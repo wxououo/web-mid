@@ -5,19 +5,31 @@
 .cover{
    padding: 0px 90px 0px 90px;
 }
+@media (max-width:998px) {
+    .cover{
+        padding: 0px 90px 0px 90px;
+        margin-top: 5rem;
+     }
+}
 .contentStyle{
-    background-color: rgb(182, 182, 236);
+    /* background-color: #7e7eda; */
     display: block;
-    height: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 35rem;
     color: aliceblue;
     line-height: 500px;
     text-align: center;
+    align-items: center;
     /* z-index: 10; */
 }
 .img{
-    display: block;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     height: 100%;
-    max-width: 100%
+    max-width: 100%;
+    align-items: center;
 }
 
 .Carousel{

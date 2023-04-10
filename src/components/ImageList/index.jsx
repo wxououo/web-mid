@@ -11,7 +11,7 @@ export default function ImageList({ products }) {
             <Row gutter={[0,50]}>
                 {products.map(data => (
                 
-                    <Col key={data.id} className={styles.image} sm={{ span: 12 }} lg={{ span: 6 }}>
+                    <Col key={data.id} className={styles.image} sm={24} lg={ 6 }>
 
                         <ImageItem imagedata={data} />
 

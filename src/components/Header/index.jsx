@@ -9,11 +9,12 @@ export default function Header({ title, slogan }) {
     const [isOnTouch, setIsOnTouch] = useState(false);
     return (
         <header className={styles.header}>
-            <HamburgerMenu
+           <HamburgerMenu
                 onClick={() => setIsOnTouch(!isOnTouch)}
                 isOnTouch={isOnTouch}
             />
-            <div  className={styles.sqare} >
+            <div  className={styles.sqare} > 
+            
             <Link to="/" className={styles.a}>
                 <div className={styles.headerTitle}>iridescent</div>
                 <div className={styles.headerLine}></div>

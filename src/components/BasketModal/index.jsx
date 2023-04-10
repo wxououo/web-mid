@@ -19,22 +19,24 @@ export default function BasketModal({ isOpen, toggleModal }) {
    const getTotalPrice = () => {
       return (cartItems.length > 0) ?
          cartItems.reduce((sum, item) => sum + item.price * item.qty, 0)
-         : 0;   
-   } 
+         : 0;
+   }
 
    return (
-      <Drawer
-         title="Shopping Basket"
+      <Drawer className={styles.drawer}
+         title={<div className={styles.title}>My Shopping Bag</div>}
          open={isOpen}
          onClose={toggleModal}
          onCancel={handleCancel}
-         // footer={null}
+         width='500px'
+      
+      // footer={null}
       >
          {cartItems.length === 0 ? (
-            <div>Cart is empty</div>
+            <div className={styles.price}>Cart is empty</div>
          ) : (
             cartItems.map(item => (
-               
+
                <li key={item.id} className={styles.item}>
                   <Link to={`/products/${item.id}`}>
                      <div onClick={handleCancel}>
@@ -44,7 +46,7 @@ export default function BasketModal({ isOpen, toggleModal }) {
                   <div className={styles.content}>
                      <div className={styles.name}>{item.name}</div>
                      <div>
-                        Qty: {"   "}
+                        {"   "}
                         <Select
                            defaultValue={item.qty}
                            onChange={(qty) => dispatch(addCartItems({
@@ -65,16 +67,14 @@ export default function BasketModal({ isOpen, toggleModal }) {
                      </div>
                   </div>
                   <div>
-                     <div className={styles.priceCount}>
-                         
-                     {FormatNumber(item.price )}x{item.qty}=
-                        </div>
-                        <div className={styles.price}>
-                        
-                        ${FormatNumber(item.price * item.qty)}
-                     </div>
                      <div className={styles.delete} onClick={() => dispatch(removeCartItems(item.id))}>
-                        x
+                        <img className={styles.bin} src="../../../public/images/bin.png" alt="x" />
+                     </div>
+                     <div className={styles.priceCount}>
+                        {FormatNumber(item.price)}x{item.qty}=
+                     </div>
+                     <div className={styles.price}>
+                        ${FormatNumber(item.price * item.qty)}
                      </div>
                   </div>
                </li>
@@ -86,10 +86,9 @@ export default function BasketModal({ isOpen, toggleModal }) {
          </div>
          <Button
             className={styles.btn}
-            type="primary"
          >
-            <CartIcon size={20} color={"#ffffff"}/>
-            <span style={{ marginLeft: 12 }}>Start Checkout</span>
+            <CartIcon size={20} color={"'#ffffff'"} />
+            <span style={{ marginLeft: 12 ,color:'white'}}>Start Checkout</span>
          </Button>
       </Drawer>
    );

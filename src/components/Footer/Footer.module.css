@@ -25,6 +25,7 @@
 
 .sub:hover {
     background-color: #c4a5f0;
+    color: #fff;
     width: 50%;
 }
 
@@ -37,13 +38,20 @@
     align-self: center;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
     .main {
         padding: 10px;
     }
 
     .footerList {
         justify-content: flex-end;
+    }
+    .main{
+        font-size: 2.5rem;
+    }
+    .sub{
+        font-size: 2rem;
+        margin-bottom: 1rem;
     }
 }
 
