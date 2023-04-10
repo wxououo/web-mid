@@ -1,5 +1,5 @@
 import { Row, Col ,Select } from "antd";
-import AddToCart from "../AddToCArt"
+import AddToCart from "../AddToCart"
 import styles from "./productdetail.module.css"
 import { useState } from "react";
 const { Option } = Select;
