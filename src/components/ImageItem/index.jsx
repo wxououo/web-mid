@@ -1,6 +1,6 @@
 import styles from './imageitem.module.css'
 import { Link } from 'react-router-dom';
-import AddToCart from '../AddToCart-category';
+import AddToCart from '../AddToCartCategory';
 
 export default function ImageItem({ imagedata }) {
     return (

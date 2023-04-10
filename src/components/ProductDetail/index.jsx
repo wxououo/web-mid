@@ -4,7 +4,6 @@ import styles from "./productdetail.module.css"
 import { useState } from "react";
 const { Option } = Select;
 
-import Count from "../Count"
 import FormatNumber from "../../thousand";
 
 function ProductDetail({ product }) {
