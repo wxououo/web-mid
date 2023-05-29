@@ -1,40 +1,23 @@
-.userInfo {
-  cursor: pointer;
-  display:block;
-  position: absolute;
-  /* background-color: aqua; */
-  margin-left: 78%;
-  margin-top: 1%;
-}
-
-.userInfoText {
-  font-size: 0.5rem;
-  opacity: 0.6;
-  margin-top: -0.2rem;
-  margin-left: 0.5rem;
-}
-
 .userInfoOutlined {
-  font-size: 1.5rem;
-  padding-left: 0.6rem;
+  display: inline-block;
+  position: absolute;
+  /*background-color: aqua;*/
+  /*left: 85%;*/
+  /*top: 5%;*/
+  font-size: 2rem;
+  margin-right: 150px;
+  cursor: pointer;
+  color: black;
+  margin-top: -60px;
 }
-.userInfoOutlined:hover {
+
+.icon:hover {
   color: #c4a5f0;
   transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 920px) {
-  .userInfoText {
-    font-size: 0.7rem;
-    margin-top: 0.3rem;
-  }
-
-  .userInfo {
-    display: block;
-  }
-
-  .userInfoOutlined {
-    font-size: 1.5rem;
-    padding-left: 0.2rem;
+@media (min-width: 768px) {
+  .userInfoOutlined{
+    right: 1.5rem;
   }
 }

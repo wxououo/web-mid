@@ -59,6 +59,8 @@
         text-align: left;
         color: #515151;
         padding: 5%;
+        line-height: 120%;
+        /* border-radius: 10%; */
         background-color: rgba(206, 201, 253, 0.412);
 
     }
@@ -74,7 +76,15 @@
     .learnmore {
         display: flex;
         text-decoration: none;
-        color: #000000;
+        color: #515151;
+        font-size: 1.5rem;
+    }
+    .learnmore:hover {
+        display: flex;
+        text-decoration: none;
+        color: #515151;
+        /* background-image: linear-gradient(to right, #c4a5f0,rgba(255,255,0,0), rgba(255,255,0,0));        */
+        font-size: 1.5rem;
     }
 
     .reverse {

@@ -24,7 +24,7 @@ export default function Homeintro() {
                                 <div className={styles.textword}>We believe that everyone should have the chance to explore new unknown worlds, interact with extraordinary creatures, and experience limitless wonders.</div>
                                 <Link to="/category/pet">
                                     <div className={styles.learnmore}>
-                                        Learn more
+                                        Learn more ⇢
                                     </div>
                                 </Link>
                             </div>                </Col>
@@ -42,7 +42,7 @@ export default function Homeintro() {
                                 <div className={styles.textword}>At the Magical Island, we firmly believe in the importance of exploration and adventure. We believe that each person possesses unique dreams and desires.</div>
                                 <Link to="/category/island">
                                     <div className={styles.learnmore}>
-                                        Learn more
+                                        Learn more ⇢
                                     </div>
                                 </Link>
                             </div>                
@@ -66,7 +66,7 @@ export default function Homeintro() {
                                 <div className={styles.textword}>Through our website, you can purchase the naming rights to the Magical Animal Island Planet, leaving your personal mark on this mystical world for eternity. </div>
                                 <Link to="/category/planet">
                                     <div className={styles.learnmore}>
-                                        Learn more
+                                        Learn more ⇢
                                     </div>
                                 </Link>
                             </div>               
@@ -85,7 +85,7 @@ export default function Homeintro() {
                                 <div className={styles.textword}>We aim to inspire the spirit of adventure, encouraging individuals to break out of their comfort zones and venture into the unknown. </div>
                                 <Link to="/category/rocketticket">
                                     <div className={styles.learnmore}>
-                                        Learn more
+                                        Learn more ⇢
                                     </div>
                                 </Link>
                             </div>               

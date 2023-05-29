@@ -5,50 +5,67 @@
   max-width: 30rem;
 }
 
+.Sentence {
+  font-family: 'Italiana', serif;
+  font-size: 2rem;
+  line-height: 70px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #515151;
+  -webkit-text-stroke: 0.5px #515151;
+}
+
 .loginForm__forgot {
-   float: right;
- }
- 
- .loginForm__forgot {
-   float: left;
- }
- 
- .loginForm__button {
-   width: 100%;
- }
- 
- .loginForm__successWrap {
-   margin-top: 1rem;
-   margin-left: auto;
-   margin-right: auto;
-   padding: 0.7rem;
-   width: 80%;
-   border: solid 1px green;
-   border-radius: 4px;
- }
- 
- .loginForm__successTitle {
-   color: green;
-   text-align: center;
- }
- 
- .loginForm__errorWrap {
-   margin-top: 1rem;
-   margin-left: auto;
-   margin-right: auto;
-   padding: 0.7rem;
-   width: 80%;
-   border: solid 1px darkred;
-   border-radius: 4px;
- }
- 
- .loginForm__errorTitle {
-   color: darkred;
- }
- 
- .loginForm__errorMessage {
-   padding-top: 0;
-   margin-top: 0;
-   font-size: 0.5rem;
- }
- 
+  float: right;
+}
+
+.loginForm__forgot {
+  float: left;
+}
+
+.loginForm__button {
+  width: 100%;
+  background-color: rgb(190, 94, 216);
+  border-radius: 5rem;
+  height: 2rem;
+}
+
+.loginForm__successWrap {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7rem;
+  width: 80%;
+  border: solid 1px green;
+  border-radius: 4px;
+}
+
+.loginForm__successTitle {
+  color: green;
+  text-align: center;
+}
+
+.loginForm__errorWrap {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7rem;
+  width: 80%;
+  border: solid 1px darkred;
+  border-radius: 4px;
+}
+
+.loginForm__errorTitle {
+  color: darkred;
+}
+
+.loginForm__errorMessage {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 0.5rem;
+}
+.signin{
+  margin-top:10px ;
+
+}

@@ -1,33 +1,67 @@
-.account{
+.out {
+    margin-top: 5rem;
+}
+
+.account {
     width: 50%;
     height: 3rem;
     margin: 2rem;
 }
-.password{
+
+.register {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.password {
     width: 50%;
     height: 3rem;
+}
+
+.Sentence {
+    font-family: 'Italiana', serif;
+    font-size: 2rem;
+    line-height: 70px;
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #515151;
+    -webkit-text-stroke: 0.5px #515151;
+}
+
+@media (min-width: 400px) {
+    .loginForm {
+        margin: auto;
+        max-width: 40rem;
+        /*background-color: aqua;*/
+    }
+    
 }
 
 .loginForm {
     padding: 1rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 20rem;
-  }
-  
-  .loginForm__forgot {
+    max-width: 30rem;
+}
+
+.loginForm__forgot {
     float: right;
-  }
-  
-  .loginForm__forgot {
+}
+
+.loginForm__forgot {
     float: left;
-  }
-  
-  .loginForm__button {
+    color: #b64bd4;
+}
+
+.loginForm__button {
     width: 100%;
-  }
-  
-  .loginForm__successWrap {
+    background-color: rgb(190, 94, 216);
+    border-radius: 5rem;
+    height: 2rem;
+}
+
+.loginForm__successWrap {
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
@@ -35,14 +69,14 @@
     width: 80%;
     border: solid 1px green;
     border-radius: 4px;
-  }
-  
-  .loginForm__successTitle {
+}
+
+.loginForm__successTitle {
     color: green;
     text-align: center;
-  }
-  
-  .loginForm__errorWrap {
+}
+
+.loginForm__errorWrap {
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
@@ -50,15 +84,19 @@
     width: 80%;
     border: solid 1px darkred;
     border-radius: 4px;
-  }
-  
-  .loginForm__errorTitle {
+}
+
+.loginForm__errorTitle {
     color: darkred;
-  }
-  
-  .loginForm__errorMessage {
+}
+
+.loginForm__errorMessage {
     padding-top: 0;
     margin-top: 0;
     font-size: 0.5rem;
-  }
-  
+}
+
+.signin {
+    margin-top: 10px;
+
+}

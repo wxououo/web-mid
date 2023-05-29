@@ -27,6 +27,7 @@ const LoginCard = ({ redirect }) => {
    }, [isSuccess, redirect]);
 
    return (
+    <div className={styles.out}>
       <Form
          name="normal_login"
          className={styles.loginForm}
@@ -102,7 +103,9 @@ const LoginCard = ({ redirect }) => {
                   Log in
                </Button>
             )}
-            Or <Link to={`/register?redirect=${redirect}`}>register now!</Link>
+            <div className={styles.register}>
+            Or <Link to={`/register?redirect=${redirect}`} >register now!</Link>
+            </div>
             {!isError ? (
                <div></div>
             ) : (
@@ -116,6 +119,7 @@ const LoginCard = ({ redirect }) => {
             )}
          </Form.Item>
       </Form>
+      </div>
    );
 };
 
