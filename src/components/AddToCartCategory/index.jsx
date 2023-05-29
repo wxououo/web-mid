@@ -14,6 +14,7 @@ export default function AddToCart({ product, qty }) {
         `♡ add ${qty} ${qty > 1 ? "pieces" : "piece"} of ${product.name} to your bag ♡`,
       className: styles.myNotification,
       placement: 'bottomRight',
+
     });
   };
   const addToCart = () => {

@@ -1,0 +1,15 @@
+.icon{
+  display: inline-block;
+  position: absolute;
+  /* background-color: aqua; */
+  left: 88%;
+  top: 7%;
+  font-size: 2rem;
+  margin-right: 4rem;
+  cursor: pointer;
+  color: black;
+}
+.icon:hover{
+  color: #c4a5f0;
+  transition: all 0.3s ease-in-out;
+}

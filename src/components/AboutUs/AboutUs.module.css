@@ -1,0 +1,39 @@
+.account {
+    width: 50%;
+    height: 3rem;
+    margin: 2rem;
+}
+
+.password {
+    width: 50%;
+    height: 3rem;
+}
+.bg{
+    min-height: 100vh;
+}
+.parent {
+    display: block;
+    position: relative;
+    left: 10rem;
+    background: rgb(236, 175, 213);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.parent[data-isOpen="true"] {
+    width: 400px;
+    height: 200px;
+    color: white;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background: #f107a3;
+    border-radius: 50%;
+    color: blueviolet;
+}

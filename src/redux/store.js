@@ -3,7 +3,7 @@ import storage from 'redux-persist/lib/storage';
 import { persistReducer, persistStore } from 'redux-persist';
 import thunk from 'redux-thunk';
 import cartReducer from './cartSlice';
-
+import usersReducer from './usersSlice'
 // Data Persist Config
 const persistConfig = {
   key: 'shoppingCart',
@@ -11,6 +11,7 @@ const persistConfig = {
 }
 
 const persistedCartReducer = persistReducer(persistConfig, cartReducer);
+const persistedUsersReducer = persistReducer(persistConfig, usersReducer);
 // const persistedColorReducer = persistReducer(persistConfig, colorReducer);
 
 
@@ -18,6 +19,7 @@ const persistedCartReducer = persistReducer(persistConfig, cartReducer);
 export const store = configureStore({
    reducer: {
      cart: persistedCartReducer,
+     users: persistedUsersReducer,
     //  color: persistedColorReducer,
    },
    devTools: process.env.NODE_ENV !== 'production',

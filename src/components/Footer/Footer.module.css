@@ -2,14 +2,14 @@
 .footerAbove {
     background-color: #F5EEFF;
     color: rgb(0, 0, 0);
-    padding: 5rem;
+    padding: 2rem;
     margin-top: 5%;
 }
 
 .main {
     /* background-color: #86e28d; */
     margin: 0;
-    padding: 20px;
+    padding: 15px;
     /* padding-bottom: 30px; */
     align-self: center;
     font-size: 1.25rem;

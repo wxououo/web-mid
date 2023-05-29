@@ -21,7 +21,7 @@ export default function CartSummary() {
       <Badge size="large" count={count} color="#D3A4FF" style={{color: 'white'} }>
         <CartIcon size={40} color={colorTextBase} />
       </Badge>
-      <p className={styles.cartText}> Shopping bag </p>
+      {/* <p className={styles.cartText}> Shopping bag </p> */}
     </nav>
      <BasketModal
      isOpen={isOpen}

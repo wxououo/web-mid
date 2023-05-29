@@ -1,0 +1,87 @@
+    .title {
+        font-family: 'Italiana', serif;
+        font-size: 3rem;
+        padding: 2% 0 2% 0;
+        margin: 5% 90px 5% 90px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #515151;
+        -webkit-text-stroke: 0.5px #515151;
+        background-color: rgba(206, 201, 253, 0.412);
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: row;
+        margin: 5% 90px 5% 90px;
+    }
+
+    .imageintro {
+        /*display: block;*/
+        align-items: center;
+        flex: 1;
+        width: 70%;
+        margin: 0px;
+
+    }
+
+    .imageintro2 {
+        /*display: block;*/
+        align-items: center;
+        flex: 1;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .textarea {
+        /*display: block;*/
+        height: 100%;
+        flex: 1;
+    }
+
+    .texttitle {
+        font-family: 'Italiana', serif;
+        display: flex;
+        font-size: 2.5rem;
+        margin-bottom: 5%;
+        color: #515151;
+        -webkit-text-stroke: 0.5px #515151;
+
+    }
+
+
+    .textword {
+        display: flex;
+        font-size: 30px;
+        margin-bottom: 5%;
+        text-align: left;
+        color: #515151;
+        padding: 5%;
+        background-color: rgba(206, 201, 253, 0.412);
+
+    }
+
+@media (min-width: 768px) {
+        .textword {
+            font-size: 30px;
+        }
+    }
+
+
+
+    .learnmore {
+        display: flex;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+    .rowReverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }

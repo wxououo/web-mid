@@ -33,6 +33,7 @@
    text-align: left;
    text-transform: uppercase;
    color: #848484;
+   user-select: none;
 }
 @media (max-width: 998px) {
    .category {
@@ -49,6 +50,7 @@
    text-align: left;
    margin-top: 10px;
    color: #3f3f3f;
+   user-select: none;
 }
 @media (max-width: 998px) {
    .title {
@@ -74,8 +76,9 @@
    text-align: left;
    letter-spacing: 0.02em;
    margin: 0px 0 17px 0;
-
    color: #848484;
+   user-select: none;
+   -webkit-user-drag: none;
 }
 @media (max-width: 998px) {
    .intro {
@@ -93,6 +96,7 @@
    margin: 40px 0 0 0;
    text-align: left;
    color: #000000;
+   user-select: none;
 }
 @media (max-width: 998px) {
    .price {
@@ -100,11 +104,12 @@
    }
 }
 
-.name {
+/* .name {
    color: white;
    margin-bottom: 0.5rem;
    font-size: 1.5rem;
-}
+   
+} */
 
 .description {
    color: white;
@@ -124,6 +129,7 @@
    font-size: 1rem;
    margin-bottom: 1rem;
    width: 100%;
+   user-select: none;
 }
 
 .selectStyle {
@@ -131,3 +137,15 @@
    margin-top: 30px;
    position: relative;
 }
+
+
+ .container {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   place-content: center;
+   place-items: center;
+   overflow: hidden;
+   border-radius: 30px;
+ }
+ 

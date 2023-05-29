@@ -6,15 +6,21 @@ import { Helmet } from "react-helmet-async"
 import planets from "../json/planets.json";
 
 
-
+// 洗牌函數，使用 Fisher-Yates 洗牌算法
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+  
+  // 將商品列表隨機排序
+  
 export default function Category() {
-    const { productCat } = useParams();
-    const _products = !productCat
-        ? planets
-        : planets.filter(
-            x => x?.category.toUpperCase() === productCat.toUpperCase()
-        );
-
+    const _products = planets
+    const shuffledProducts = shuffleArray(_products);
+  
     // const { kirbydisplay } = useParams();
     // const kirby = ! kirbydisplay
     //     ? planets
@@ -26,7 +32,7 @@ export default function Category() {
         <body>
             <img src="/images/bg0.jpg" alt="0" className="bgimg"/>
             <div className="mainLayout">
-                <Helmet><title>{productCat}</title></Helmet>
+                <Helmet><title>All Products</title></Helmet>
                 <Header />
                 <ImageList
                     products={_products}

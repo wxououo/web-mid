@@ -1,14 +1,14 @@
 .hamMenu {
-  display: inline-block;
-  position: absolute;
+  display: block;
+  position:absolute;
   z-index: 9;
-  background-color: whitesmoke;
-  margin-top: 2.5rem;
+  /* background-color: rgb(221, 52, 52); */
+  margin-top: 3.5rem;
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 0.5rem;
   /* opacity: 0.7; */
-  left: 1rem;
+  left: 5rem;
   top: 0rem;
   transition: all 0.25s linear;
 }
@@ -19,3 +19,11 @@
   }
 }
 
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #fff;
+}

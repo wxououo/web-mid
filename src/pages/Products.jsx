@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import planets from "../json/planets.json";
 import ProductDetail from "../components/ProductDetail"
 
+
 function Product() {
    const { productId } = useParams();
    const product = planets.find(

@@ -20,16 +20,16 @@ export default function Footer() {
                         <p className={styles.main}>Shop</p>
                         <p className={styles.sub}>All product</p>
                         <Link to="/category/pet">
-                        <p className={styles.sub}>pet</p>
+                        <p className={styles.sub}>Pet</p>
                         </Link>
                         <Link to="/category/island">
-                        <p className={styles.sub}>island</p>
+                        <p className={styles.sub}>Island</p>
                         </Link>
                         <Link to="/category/planet">
-                        <p className={styles.sub}>planet</p>
+                        <p className={styles.sub}>Planet</p>
                         </Link>
                         <Link to="/category/rocketticket">
-                        <p className={styles.sub}>rocket ticket</p>
+                        <p className={styles.sub}>Rocket Ticket</p>
                         </Link>
                         </Col>
                         <Col sm={{span:24}} lg={{ span:6 }} >
@@ -37,8 +37,8 @@ export default function Footer() {
                         <Link to="/">
                         <p className={styles.sub}>How to buy</p>
                         <p className={styles.sub}>complement</p>
-                        <p className={styles.sub}>Q&A</p>
-                        <p className={styles.sub}>contact</p>
+                        <p className={styles.sub}>FAQ</p>
+                        <p className={styles.sub}>Contact</p>
                         </Link>
                         </Col>
                         <Col sm={{span:24}} lg={{ span:6 }} >

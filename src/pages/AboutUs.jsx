@@ -4,7 +4,8 @@ import Description from "../components/Description";
 import Items from "../components/ImageList";
 import HomeItem from "../components/Homeitems"
 import { Helmet } from "react-helmet-async"
-import Homeintro from "../components/HomeIntro";
+import Blog from "../components/AboutUs";
+import AboutUs from "../components/AboutUs";
 
 // const title = !categoryName
 // ? "NORDIC NEST Shopping Cart"
@@ -16,11 +17,9 @@ export default function Home() {
         <body >
             <img src="images/bg0.jpg" alt="0" className="bgimg"/>
             <div className="mainLayout">
-                <Helmet><title>iridescent</title></Helmet>
+                <Helmet><title>About Us</title></Helmet>
                 <Header />
-                <Description />
-                <HomeItem />
-                <Homeintro />
+                <AboutUs />
                 <Footer />
             </div>
         </body>
