@@ -7,4 +7,7 @@
 
 .profileForm__button {
   width: 100%;
+  background-color: rgb(190, 94, 216);
+  border-radius: 5rem;
+  height: 2rem;
 }

@@ -23,7 +23,7 @@ export default function LoginIcon(props) {
          }
          <p className={styles.userInfoText}>
             {!!userInfo?.name
-               ? `${userInfo.name}'s`
+               ? ``
                : ``
             }
          </p>
