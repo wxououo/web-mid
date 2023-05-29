@@ -1,20 +1,21 @@
 .cartSummary {
-   display: inline-block;
-   position: absolute;
-   /* top: 1.5rem; */
-   margin-right: 4rem;
-   cursor: pointer;
- }
- 
- .cartText {
-   font-size: 0.8rem;
-   opacity: 0.6;
-   margin-top: -4px;
- }
+  display: inline-block;
+  position: absolute;
+  
+  /* top: 1.5rem; */
+  margin-right: 100px;
+  cursor: pointer;
+}
 
- @media (min-width: 768px) {
-   .cartSummary {
-      right: 1.5rem;
-   }
- }
+.cartText {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin-top: -4px;
+}
+
+@media (min-width: 768px) {
+  .cartSummary {
+     right: 1.5rem;
+  }
+}
 

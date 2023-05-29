@@ -6,6 +6,7 @@ import HamburgerMenu from "../HamburgerMenu"
 import Cart from "../CartSummary"
 import LoginIcon from '../LoginIcon';
 
+
 export default function Header({ title, slogan }) {
     const [isOnTouch, setIsOnTouch] = useState(false);
     return (
@@ -21,6 +22,7 @@ export default function Header({ title, slogan }) {
                 <div className={styles.headerLine}></div>
             </Link>
             <LoginIcon />
+            {/* <UserInfo className={styles.hideInMobile} /> */}
             <Cart />
             </div>
             <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)}/>

@@ -33,7 +33,7 @@ const RegisterCard = ({ redirect }) => {
       scrollToFirstError
     >
       <Form.Item
-        name="username"
+        name="name"
         label="Your Name"
         tooltip="What do you want others to call you?"
         rules={[
@@ -139,7 +139,7 @@ const RegisterCard = ({ redirect }) => {
           </Button>
         )}
         Already have an account?{" "}
-        <Link to={`/auth/login?redirect=${redirect}`}>Login</Link>
+        <Link to={`/login?redirect=${redirect}`}>Login</Link>
         {!isError ? (
           <></>
         ) : (
@@ -148,7 +148,7 @@ const RegisterCard = ({ redirect }) => {
               <WarningOutlined  />
               {"  "}There was a problem
             </h3>
-            <p className={styles.loginForm__errorMessage}>{error.response.data?.detail}</p>
+            <p className={styles.loginForm__errorMessage}>{error.message}</p>
           </div>
         )}
       </Form.Item>
