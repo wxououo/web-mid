@@ -1,3 +1,4 @@
+
 .userInfoOutlined {
   display: inline-block;
   position: absolute;
@@ -8,9 +9,16 @@
   margin-right: 150px;
   cursor: pointer;
   color: black;
-  margin-top: -60px;
+  margin-top: -70px;
 }
-
+.userInfoText{
+  position:absolute ;
+  display: inline-block;
+  right: 1.5rem;
+  margin-right: 155px;
+  margin-top: -20px;
+  font-size: 20px;
+}
 .icon:hover {
   color: #c4a5f0;
   transition: all 0.3s ease-in-out;

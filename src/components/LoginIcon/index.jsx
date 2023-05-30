@@ -21,12 +21,12 @@ export default function LoginIcon(props) {
             ? <UserOutlined className={styles.userInfoOutlined} />
             : <UserSwitchOutlined className={styles.userInfoOutlined} />
          }
-         <p className={styles.userInfoText}>
+         <div className={styles.userInfoText}>
             {!!userInfo?.name
-               ? ``
+               ? `${userInfo.name}`
                : ``
             }
-         </p>
+         </div>
       </div>
 
    );
